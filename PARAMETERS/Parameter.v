@@ -1,3 +1,15 @@
+module parameter_example_0();
+
+  parameter WIDTH = 32; //declare a constant WIDTH with value 32
+  input a;
+  input b;
+  input c;
+
+  
+
+
+endmodule
+
 module parameter_example #(parameter data_width = 8, id_width = 32) (data, id); // a parameter is a declared constant value in module block
   
   input bit [data_width-1:0] data;

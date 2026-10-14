@@ -4,7 +4,6 @@
 // Boundaries [module, endmodule]
 // Inputs and outputs [ports]
 // How it works [behavior of RTL code]
-
 //module module_example (<port_list>);
   //...
   // <implementation>
